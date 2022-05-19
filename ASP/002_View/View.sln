@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.0.32112.339
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "001_View", "001_View\001_View.csproj", "{3F429F05-5B11-4005-B617-D30F19D3ADF4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "002_View", "002_View add css\002_View.csproj", "{93605F09-0E31-4CF2-9B0B-D8D1FB9F714E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "002_View add css", "002_View add css\002_View add css.csproj", "{93605F09-0E31-4CF2-9B0B-D8D1FB9F714E}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "003_View add js", "003_View add js\003_View add js.csproj", "{57949E57-22B5-4670-8374-F28035D8D58C}"
 EndProject

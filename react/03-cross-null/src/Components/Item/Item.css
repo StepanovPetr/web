@@ -1,0 +1,15 @@
+.cross {
+  background-image: url("../../../public/cross.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  width: 120px;
+  height: 120px;
+ }
+
+ .null {
+  background-image: url("../../../public/null.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  width: 120px;
+  height: 120px;
+ }

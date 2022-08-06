@@ -1,0 +1,50 @@
+.box {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  /* Фоновое изображение  */
+  background-image: url("../img/shloma.jpg");
+  /* Размер Фонового изображения  */
+  background-size: 100px 100px;
+  background-color: blue;
+}
+.wrapper {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  border: 3px solid red;
+}
+button {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  width: 100px;
+  height: 40px;
+  background-color: yellow;
+  border: none;
+}
+
+
+.transform{
+  transform: rotate(0deg);
+}
+.transform1{
+  transform: rotate(-30deg);
+}
+.transform2{
+  transform: rotate(-60deg);
+}
+.transform3{
+  transform: rotate(-90deg);
+}
+.transform4{
+  transform: rotate(-1200deg);
+}
+.transform5{
+  transform: rotate(-1800deg);
+}
+.transform6{
+  transform: rotate(-2400deg);
+}
+.transform7{
+  transform: rotate(-300deg);
+}

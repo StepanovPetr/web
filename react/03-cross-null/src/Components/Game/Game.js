@@ -8,43 +8,26 @@ class Game extends React.Component {
     constructor(props) {
         super(props);
         // Установка начального локального состояния.
-        this.state = { items :[
-            [false, false, false],
-            [false, false, false],
-            [false, false, false]
-          ],
-        newItems: [false, false, false] };
+        this.state = {
+            items: [
+                [false, false, false],
+                [false, false, false],
+                [false, false, false]
+            ],
+            newItems: [false, false, false]
+        };
     }
 
     render() {
+        const listItems =
+            this.state.items.map((item) => {
+                item.map((element) => {
+                    return <Item isCross='true' />
+                })
+            })
 
-        const listItems = this.state.Items.map((array) =>
-        // Wrong! The key should have been specified here:
-        //<Item isCross={number} />
-        <div className='row'></div>
-        array.map((Item) => <Item isCross={Item} />)
-        );
-
-        // Изменения локального состояния.
-        //this.setState({Name: "hello word" })
+        console.log(listItems);
         return (<div>
-            {/* <div className='row'>
-                <Item />
-                <Item isCross='true' />
-                <Item />
-            </div>
-
-            <div className='row'>
-                <Item />
-                <Item isCross='true' />
-                <Item />
-            </div>
-
-            <div className='row'>
-                <Item />
-                <Item isCross='true' />
-                <Item />
-            </div> */}
             {listItems}
         </div>)
     }

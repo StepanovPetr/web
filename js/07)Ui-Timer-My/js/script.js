@@ -7,7 +7,7 @@ const box = document.querySelector(".box");
 const intervalId = setInterval(move, 50);
 
 // Отложенный вызов.
-const timerId = setTimeout(() => { confirm("Шекер бекер?"); }, 3000);
+//const timerId = setTimeout(() => { confirm("Шекер бекер?"); }, 3000);
 
 function move() {
 

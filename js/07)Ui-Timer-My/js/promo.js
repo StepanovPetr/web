@@ -1,4 +1,4 @@
-const newYear = '2022-1-1';
+const newYear = '2023-1-1';
 
 function setTimer() {
     const diff = Date.parse(newYear) - new Date();

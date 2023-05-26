@@ -1,0 +1,6 @@
+npm install -g typescript
+
+tsc
+tsc --init // Initializes a TypeScript project and creates a tsconfig.json file. 
+tsc --build
+tsc --clean 

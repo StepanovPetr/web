@@ -1,9 +1,5 @@
 import { Pupil } from './Pupil.js'
 
-/**
- * Класс ClassRoom .
- */
-
 export class ClassRoom {
     pupils: Pupil[] = [];
 
@@ -14,9 +10,6 @@ export class ClassRoom {
         this.pupils.push(pupil4);
     }
 
-    /**
-    * Получить средний балл про класу..
-    */
     GetRoundGrade = (): number => {
         let sum: number = 0;
         this.pupils.forEach(i => sum += i.getCurrentGrade())

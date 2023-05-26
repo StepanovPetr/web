@@ -1,9 +1,5 @@
 import {Pupil} from './Pupil.js'
 
-/**
- * Класс BadPulil.
- */
-
 export class BadPulil extends Pupil {
     study = () => 'Bad study';
     read = () => 'Bad read';

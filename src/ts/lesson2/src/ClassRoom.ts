@@ -22,4 +22,18 @@ export class ClassRoom {
         this.pupils.forEach(i => sum += i.getCurrentGrade())
         return sum / this.pupils.length;
     }
+
+
+    logJSONData  = async () =>  {
+        var headers = {}
+
+        const response = await fetch("http://boost.org/doc/libs/master/libs/beast/doc/html/beast/quick_start/", {
+            method : "GET",
+            mode: 'cors',
+            headers: headers
+        });
+        const text = await response.text();
+        console.log(text);
+    }
+
 }

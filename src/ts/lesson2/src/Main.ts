@@ -13,6 +13,7 @@ const main = () => {
 
     let classRoom : ClassRoom = new ClassRoom(pupil1, pupil2, pupil3, pupil4);
     console.log(classRoom.GetRoundGrade());
+    classRoom.logJSONData();
 }
 
 main();

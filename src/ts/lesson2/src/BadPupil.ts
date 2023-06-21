@@ -1,4 +1,4 @@
-import {Pupil} from './Pupil.js'
+import { Pupil } from './Pupil.js'
 
 /**
  * Класс BadPulil.
